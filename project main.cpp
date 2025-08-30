@@ -7,8 +7,8 @@
 // #include <cstdlib>
 using namespace std;
 
-/////////// airplain at Y = 10
-/////////// Y building = 15 - 27              building ha - 5 vahed az aval o akhar fasele   (45, )
+/////////// airplane starting point at Y = 10
+/////////// Y building = 12 - 27              building ha - 5 vahed az aval o akhar fasele   (45, )
 /////////// no of buildings = 5
 /////////// ground = (40, 28) - (119, 28)
 
@@ -92,7 +92,7 @@ const int startpoint_x = 40;
 const int plane_x = 8;
 const int plane_y = 10;
 const int build_count = 5;
-const int min_building = 10;   ////  + (0 - 8) -> building height
+const int min_building = 10;   ////  + (0 - 6) -> building height
 
 int airplane_coord[2] = {8, 10}; ////{ x or x + 6 , y } //////nok e airplane coord
 int bomb_coord[2] = {-1, -1}; ///////{ planeX - 3 , planeY }
